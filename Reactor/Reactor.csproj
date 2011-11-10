@@ -132,6 +132,7 @@
     </Compile>
     <Compile Include="ServiceGrid\IReactorService.cs" />
     <Compile Include="ServiceGrid\PackageDirectoryWatcher.cs" />
+    <Compile Include="ServiceGrid\Reactions\SendEmailReaction.cs" />
     <Compile Include="ServiceGrid\ReactorCore.cs" />
     <Compile Include="ServiceGrid\ReactorServiceBase.cs" />
     <Compile Include="ServiceGrid\SerializedSpark.cs" />
