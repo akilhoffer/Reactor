@@ -22,7 +22,7 @@ namespace Reactor.UtilityConsole
 
             var serializedSpark = new SerializedSpark
                                       {
-                                          FullyQualifiedSparkType = spark.GetType().FullName,
+                                          FullyQualifiedSparkType = spark.GetType().AssemblyQualifiedName,
                                           SparkInstanceXml = spark.ToXml()
                                       };
 

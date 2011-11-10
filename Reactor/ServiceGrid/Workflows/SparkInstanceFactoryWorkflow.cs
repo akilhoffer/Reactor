@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Activities;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using Reactor.Entities;
 using Reactor.FileSystem;
 using Samurai.Wakizashi.Extensions;
@@ -66,6 +68,9 @@ namespace Reactor.ServiceGrid.Workflows
             var xml = Context.FileSystem.ReadAllText(xmlFilePath);
             var serializedSpark = ObjectExtensions.FromXml<SerializedSpark>(xml);
             var sparkType = Type.GetType(serializedSpark.FullyQualifiedSparkType);
+
+            if (sparkType == null)
+                throw new InvalidOperationException(string.Format("Unable to resolve type: {0}", serializedSpark.FullyQualifiedSparkType));
 
             return (ISpark)ObjectExtensions.FromXml(sparkType, serializedSpark.SparkInstanceXml);
         }

@@ -63,12 +63,9 @@ namespace Reactor.Specs.Properties {
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
         ///&lt;SerializedSpark xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
-        ///  &lt;FullyQualifiedSparkType&gt;Reactor.ScheduleStream.Sparks.HourlySpark&lt;/FullyQualifiedSparkType&gt;
-        ///  &lt;SparkInstanceXml&gt;
-        ///    &amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&amp;gt;
-        ///    &amp;lt;HourlySpark xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&amp;gt;
-        ///    &amp;lt;Name&amp;gt;TestSpark&amp;lt;/Name&amp;gt;
-        ///    &amp;lt;IsActive&amp;gt; [rest of string was truncated]&quot;;.
+        ///  &lt;FullyQualifiedSparkType&gt;Reactor.ScheduleStream.Sparks.HourlySpark, Reactor.ScheduleStream, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null&lt;/FullyQualifiedSparkType&gt;
+        ///  &lt;SparkInstanceXml&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&amp;gt;
+        ///&amp;lt;HourlySpark xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSche [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string SerializedSparkXml {
             get {

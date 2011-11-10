@@ -87,13 +87,16 @@
       <Project>{8C23C241-3A9D-4C60-8D56-A7FED7424C7F}</Project>
       <Name>Reactor</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Services\Reactor.ScheduleStream\Reactor.ScheduleStream.csproj">
+      <Project>{D178990E-6308-432F-A41B-457EAC2D4A4D}</Project>
+      <Name>Reactor.ScheduleStream</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="ServiceGrid\Workflows\SerializedSpark.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

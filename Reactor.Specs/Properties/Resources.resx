@@ -120,20 +120,18 @@
   <data name="SerializedSparkXml" xml:space="preserve">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializedSpark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;FullyQualifiedSparkType&gt;Reactor.ScheduleStream.Sparks.HourlySpark&lt;/FullyQualifiedSparkType&gt;
-  &lt;SparkInstanceXml&gt;
-    &amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
-    &amp;lt;HourlySpark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
-    &amp;lt;Name&amp;gt;TestSpark&amp;lt;/Name&amp;gt;
-    &amp;lt;IsActive&amp;gt;true&amp;lt;/IsActive&amp;gt;
-    &amp;lt;FireConditionCheckInterval /&amp;gt;
-    &amp;lt;FireConditionCheckAbsoluteStartTime&amp;gt;0001-01-01T00:00:00&amp;lt;/FireConditionCheckAbsoluteStartTime&amp;gt;
-    &amp;lt;ReactionIdentifier&amp;gt;
+  &lt;FullyQualifiedSparkType&gt;Reactor.ScheduleStream.Sparks.HourlySpark, Reactor.ScheduleStream, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null&lt;/FullyQualifiedSparkType&gt;
+  &lt;SparkInstanceXml&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;HourlySpark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;Name&amp;gt;TestSpark&amp;lt;/Name&amp;gt;
+  &amp;lt;IsActive&amp;gt;true&amp;lt;/IsActive&amp;gt;
+  &amp;lt;FireConditionCheckInterval /&amp;gt;
+  &amp;lt;FireConditionCheckAbsoluteStartTime&amp;gt;0001-01-01T00:00:00&amp;lt;/FireConditionCheckAbsoluteStartTime&amp;gt;
+  &amp;lt;ReactionIdentifier&amp;gt;
     &amp;lt;Name&amp;gt;TestReaction&amp;lt;/Name&amp;gt;
     &amp;lt;Version /&amp;gt;
-    &amp;lt;/ReactionIdentifier&amp;gt;
-    &amp;lt;/HourlySpark&amp;gt;
-  &lt;/SparkInstanceXml&gt;
+  &amp;lt;/ReactionIdentifier&amp;gt;
+&amp;lt;/HourlySpark&amp;gt;&lt;/SparkInstanceXml&gt;
 &lt;/SerializedSpark&gt;</value>
   </data>
 </root>
